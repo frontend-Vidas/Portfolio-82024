@@ -12,7 +12,7 @@ _website design project_
 
 HTML CSS learning project for begginers
 
-Site published at: https://tropikalis.github.io/portfolio-82024/
+Site published at: 
 
 Design: [Coming] https:// 
 
