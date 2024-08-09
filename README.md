@@ -2,7 +2,7 @@
 ![Security Status](https://img.shields.io/security-headers?label=Security&url=https%3A%2F%2Fgithub.com&style=flat-square)
 
 
-# Portfolio
+# Portfolio-82024
 
 _website design project_
 
@@ -12,7 +12,7 @@ _website design project_
 
 HTML CSS learning project for begginers
 
-Site published at: https://tropikalis.github.io/portfolio/
+Site published at: https://tropikalis.github.io/portfolio-82024/
 
 Design: [Coming] https:// 
 
@@ -48,7 +48,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/tropikalis/Coming.git
+    git clone https://github.com/frontend-Vidas/Portfolio-82024.git
     ```
 2. Install NPM packages
     ```sh
