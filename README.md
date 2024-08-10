@@ -14,7 +14,7 @@ HTML CSS learning project for begginers
 
 Site published at: 
 
-Design: [Coming] https:// 
+Design: [Portfolio] https:// 
 
 ## 🎯 Project features/goals
 
@@ -69,7 +69,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-tropikalis: [Github](https://github.com/frontend-Vidas)
+Vidas: [Github](https://github.com/frontend-Vidas)
 
 
 ## ⚠️ License
