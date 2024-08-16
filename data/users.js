@@ -1,7 +1,8 @@
-const users = [
+/* const users = [
     {},
     {},
     {},
     {},
     {},
 ]
+*/

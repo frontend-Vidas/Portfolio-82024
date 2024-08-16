@@ -1,0 +1,20 @@
+
+
+.container-fluid {
+    width: 100%;
+    padding: 60px 0;
+    float: left;
+    background-color: pink;
+}
+
+.container > .row {
+    width: var(--width);
+    margin: 20px;
+    float: left;
+}
+
+.row > [class*='col'] {
+    float: left;
+    margin: var (--half-gap);
+    background-color: yellow;
+}
