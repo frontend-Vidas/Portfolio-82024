@@ -1,7 +1,7 @@
 {
   "name": "portfolio-82024",
   "version": "1.0.0",
-  "description": "",
+  "description": "!",
   "main": "index.js",
   "scripts": {
     "dev": "dead-server --host=localhost --port=1111",

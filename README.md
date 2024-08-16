@@ -12,9 +12,9 @@ _website design project_
 
 HTML CSS learning project for begginers
 
-Site published at: 
+Site published at: https://frontend-vidas.github.io/Portfolio-82024/
 
-Design: [Portfolio] https:// 
+Design: [Martin] https://pxdraft.com/themeforest/martin/
 
 ## 🎯 Project features/goals
 
