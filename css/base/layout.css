@@ -1,5 +1,5 @@
 
-
+.container,
 .container-fluid {
     width: 100%;
     padding: 60px 0;
@@ -9,12 +9,18 @@
 
 .container > .row {
     width: var(--width);
-    margin: 20px;
+    margin: 20px calc ((100% -var(--width)) / 2);
     float: left;
+    background-color: aqua;
 }
-
-.row > [class*='col'] {
+.row > [class*='col-'] {
     float: left;
     margin: var (--half-gap);
     background-color: yellow;
+}
+.row > .col-1 {
+    width: var(--c1);
+}
+.row > .col-2 {
+    width: var(--c2);
 }
