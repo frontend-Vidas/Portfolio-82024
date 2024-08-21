@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/pages/home.css">
-    <link rel="stylesheet" href="./css/base/base.css">
-    <link rel="stylesheet" href="./css/base/layout.css">
 </head>
 
 <body>
     <!-- HEADER: start -->
     <header class="container">
         <div class="row">
-             <div class="col-12">
+            <div class="col-12">
                 <img src="#" alt="Logo" class="logo">
                 <nav>
                     <a href="#">Link</a>
@@ -26,11 +24,11 @@
     </header>
     <!-- HEADER: end -->
 
-    <main>  
+    <main>
         <!-- HERO: start -->
-        <section classs="container">
+        <section class="container bg-dark">
             <div class="row">
-                <div class="col-12 col-lg-5 ml-lg-1 col-xl-8 ml-xl-2">
+                <div class="col-12 col-lg-10 ml-lg-1 col-xl-8 ml-xl-2">
                     HERO CONTENT
                 </div>
             </div>
@@ -38,78 +36,144 @@
         <!-- HERO: end -->
 
         <!-- ABOUT ME: start -->
-        <section classs="container">
-            <div class="raw">
-                <img class="col-12 col-sm-8 ml-sm-2 col-md-6 ml-md-3 col-lg-5 ml-lg-0" src="#" alt="Selfie"">
+        <section class="container">
+            <div class="row">
+                <img class="col-12 col-sm-8 ml-sm-2 col-md-6 ml-md-3 col-lg-5 ml-lg-0" src="#" alt="Selfie">
                 <div class="col-12 col-lg-7">
+                    <h2 class="section-title capitalize left">About <span>me</span></h2>
                     ABOUT ME CONTENT
                 </div>
             </div>
         </section>
         <!-- ABOUT ME: end -->
 
-        <!-- SERVICES: start -->
-        <section classs="container">
+        <!-- SOCIAL METRICS: start -->
+        <section class="container bg-light-grey">
             <div class="row">
-                 <h2 class="col-12">My services</h2>
+                <h2 class="col-12 section-title"><span>Social</span> metrics</h2>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 col-xl-4">SERVICE 1</div>
-                <div class="col-12 col-md-6 col-xl-4">SERVICE 2</div>
-                <div class="col-12 col-md-6 col-xl-4">SERVICE 3</div>
-                <div class="col-12 col-md-6 col-xl-4">SERVICE 4</div>
-                <div class="col-12 col-md-6 col-xl-4">SERVICE 5</div>
-                <div class="col-12 col-md-6 col-xl-4">SERVICE 6</div>
+                <ul id="metrics_block" class="col-12"></ul>
+                <!-- <ul id="metrics_block" class="col-12 social-metrics">
+                <li class="metric">
+                    <div class="number">523k</div>
+                    <div class="label">Audience</div>
+                </li>
+                <li class="metric">
+                    <div class="number">26m</div>
+                    <div class="label">Views</div>
+                </li>
+                <li class="metric">
+                    <div class="number">12k</div>
+                    <div class="label">Comments</div>
+                </li>
+                <li class="metric">
+                    <div class="number">314k</div>
+                    <div class="label">Likes</div>
+                </li>
+            </ul> -->
             </div>
         </section>
-        <!--SERVICES: end -->
+        <!-- SOCIAL METRICS: end -->
 
-         <!-- RESUME: start -->
-        <section classs="container">
+        <!-- SERVICES: start -->
+        <section class="container bg-light-grey">
             <div class="row">
-                <h2 class="col-12">My resume</h2>
-           </div>
-           <div class="row">
-               <div class="col-12 col-md-6">RESUME 1</div>
-               <div class="col-12 col-md-6">RESUME 2</div>
-           </div>
+                <h2 class="col-12 section-title"><span>My</span> services</h2>
+            </div>
+            <div class="row">
+                <div id="services_block" class="col-12 services"></div>
+            </div>
+        </section>
+        <!-- SERVICES: end -->
+
+        <!-- RESUME: start -->
+        <section class="container">
+            <div class="row">
+                <h2 class="col-12 section-title"><span>My</span> resume</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">RESUME 1</div>
+                <div class="col-12 col-md-6">RESUME 2</div>
+            </div>
         </section>
         <!-- RESUME: end -->
 
-         <!-- FRELANCE: start -->
-         <section classs="container">
-            FRELANCE CONTENT
+        <!-- FREELANCE: start -->
+        <section class="container bg-main">
+            <div class="row">
+                <div class="col-12">
+                    FREELANCE CONTENT
+                </div>
+            </div>
         </section>
-        <!--FRELANCE: end -->
+        <!-- FREELANCE: end -->
 
         <!-- PORTFOLIO: start -->
-        <section classs="container">
-            PORTFOLIO CONTENT
+        <section class="container">
+            <div class="row">
+                <h2 class="col-12 section-title"><span>My</span> portfolio</h2>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    PORTFOLIO CONTENT GALLERY
+                </div>
+            </div>
         </section>
         <!-- PORTFOLIO: end -->
 
         <!-- TESTIMONIALS: start -->
-        <section classs="container">
-            TESTIMONIALS CONTENT
+        <section class="container bg-light-grey">
+            <div class="row">
+                <div class="col-12 col-md-8 ml-md-2 col-lg-6 ml-lg-3">
+                    TESTIMONIALS CONTENT
+                </div>
+            </div>
         </section>
         <!-- TESTIMONIALS: end -->
 
-        <!-- BLOG: start -->
-        <section classs="container">
-            BLOG CONTENT
+        <!-- BLOGS: start -->
+        <section class="container">
+            <div class="row">
+                <h2 class="col-12 section-title"><span>My</span> blog</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4">BLOG 1</div>
+                <div class="col-12 col-lg-4">BLOG 2</div>
+                <div class="col-12 col-lg-4">BLOG 3</div>
+            </div>
         </section>
-        <!-- BLOG: end -->
+        <!-- BLOGS: end -->
 
         <!-- CONTACT: start -->
-        <section classs="container">
-            CONTACT CONTENT
+        <section class="container bg-light-grey">
+            <div class="row">
+                <h2 class="col-12 section-title">Contact <span>me</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-7">CONTACT FORM</div>
+                <div class="col-12 col-lg-5">CONTACT DETAILS</div>
+            </div>
         </section>
         <!-- CONTACT: end -->
     </main>
 
     <!-- FOOTER: start -->
-    <footer>
-        FOOTER CONTENT
+    <footer class="container bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    FOOTER CONTENT
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    COPYRIGHT
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- FOOTER: end -->
 
