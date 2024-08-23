@@ -5,11 +5,10 @@
 
 
 /* vendors */
-/* @import '../vendor/et-line.css'; */
+@import '../vendor/font-awesome.min.css';
 
 /* components */
-/* @import '../components/services.css'; 
-@import '../components/social-metrics.css'; */
+@import '../components/services.css'; 
 
 /* CUSTOM CSS */
 
