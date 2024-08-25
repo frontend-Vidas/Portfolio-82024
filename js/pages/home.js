@@ -1,4 +1,5 @@
 // IMPORTS
+import { services } from '../components/services.js';
 
 // EXECUTION
 
@@ -12,6 +13,7 @@
 /* ABOUT ME: end */ 
 
 /* SERVICES: start */ 
+services();
 /* SERVICES: end */ 
 
 /* RESUME: start */ 
