@@ -47,71 +47,15 @@ const homeServicesData = [
     },
 ];
 
-const allServicesData = [
-    {
-        icon: 'desktop',
-        title: 'Search Optimization',
-        desc:'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading',
-    },
-    {
-        icon: 'gg',
-        title: 'Logo &amp; Identity',
-        desc:'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading',
-    },
-    {
-        icon: 'puzzle-piece',
-        title: 'Graphics Design',
-        desc:'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading',
-    },
-    {
-        icon: 'globe',
-        title: 'Fully Responsive',
-        desc:'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading',
-    },
-    {
-        icon: 'wrench',
-        title: 'Advanced options',
-        desc:'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading',
-    },
-    {
-        icon: 'money',
-        title: 'Reasonable pricing',
-        desc:'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading',
-    },
-    {
-        icon: 'desktop',
-        title: 'Search Optimization',
-        desc:'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading',
-    },
-    {
-        icon: 'gg',
-        title: 'Logo &amp; Identity',
-        desc:'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading',
-    },
-    {
-        icon: 'puzzle-piece',
-        title: 'Graphics Design',
-        desc:'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading',
-    },
-    {
-        icon: 'globe',
-        title: 'Fully Responsive',
-        desc:'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading',
-    },
-    {
-        icon: 'wrench',
-        title: 'Advanced options',
-        desc:'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading',
-    },
-    {
-        icon: 'money',
-        title: 'Reasonable pricing',
-        desc:'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading',
-    },
-];
+// services('', homeServicesData);
 
-services('services_block', homeServicesData);
-services('resume_services_block', allServicesData);
+// services('services_block', [5, 'asd', true, [], services, null, undefined]);
+// services('services_block', [5, 'asd', true, [], services]);
+services('services_block', [
+    {
+        icon: 'desktop',
+    },
+]);
 
 /* SERVICES: end */ 
 
