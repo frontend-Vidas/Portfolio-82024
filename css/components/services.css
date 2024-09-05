@@ -14,6 +14,7 @@
     background-color: #fff;
     box-shadow: 0 4px 8px #0002;
 }
+
 .services > .service i {
     color: var(--main-color);
     font-size: 60px;
@@ -34,6 +35,7 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+
 @media (min-width: 992px) {
     .services {
         grid-template-columns: 1fr 1fr 1fr;

@@ -53,12 +53,20 @@ body {
 .section-title.capitalize {
     text-transform: capitalize;
 }
+.section-title.left {
+    text-align: left;
+}
 .section-title.left::after {
     left: 0;
     transform: translate(0);
 }
-.section-title.left {
-    text-align: left;
+.section-title.right {
+    text-align: right;
+}
+.section-title.right::after {
+    right: 0;
+    left: auto;
+    transform: translate(0);
 }
 .section-title > span {
     color: var(--main-color);
