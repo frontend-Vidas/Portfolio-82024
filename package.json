@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "dead-server --host=localhost --port=1111",
+    "interval": "nodemon ./js/interval.js",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watchAll --passWithNoTests",
     "test:all": "jest --watchAll --passWithNoTests --coverage",
