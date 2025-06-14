@@ -28,7 +28,9 @@ if (isError) {
 /* ABOUT ME: end */ 
 
 /* SERVICES: start */ 
+console.log('services...');
 
+/*
 const homeServicesData = [
     {
         icon: 'desktop',
@@ -61,16 +63,18 @@ const homeServicesData = [
         desc:'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading',
     },
 ];
-
+*/
 // services('', homeServicesData);
 
 // services('services_block', [5, 'asd', true, [], services, null, undefined]);
 // services('services_block', [5, 'asd', true, [], services]);
-services('services_block', [
+
+/* services('services_block', [
     {
         icon: 'desktop',
     },
 ]);
+*/
 
 /* SERVICES: end */ 
 
